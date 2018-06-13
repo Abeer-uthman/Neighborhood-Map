@@ -1,0 +1,160 @@
+/****** media queries style *********/
+@media screen and (max-width: 550px){
+  .bm-burger-button {
+    width: 28px;
+    height: 22px;}
+
+    .bm-cross-button {
+      height: 30px;
+      width: 30px;
+    }
+
+    .bm-menu {
+      padding: 2em 1em 0;
+      font-size: 1em;
+      opacity: 0.5;
+    }
+
+    .bm-item {
+      font-size: 16px;
+    }
+
+    .search-types {
+      font-size: 16px;
+    }
+
+    .search-locations {
+      color: #800060;
+      font-size: 8px;
+      background: #f2f2f2;
+      margin: auto;
+      width: 100%;
+      padding: 6px;
+    }
+
+    #header {
+      font-size: 10px;
+      padding: 6px;
+    }
+
+  }
+/********* map container style ********/
+#map-container {
+height: 100vh;
+width: 100%;
+}
+/************ part of search Locations style **********/
+.search-locations {
+  display: flex;
+  flex-wrap: wrap;
+  color: #800060;
+  font-size: 18px;
+  background: #f2f2f2;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+#header {
+  font-size: 24px;
+  padding: 6px;
+  color: #800060;
+}
+form {
+  width: 100%;
+}
+button {
+  padding: 6px;
+  width: 100%;
+}
+/********* burger menu style ********/
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #333;
+}
+
+.bm-cross-button {
+  height: 40px;
+  width: 40px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/********* menu style **********/
+.bm-menu {
+  background: #800060;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #ffffff;
+  padding: 0.8em;
+}
+
+/********* Individual item style ************/
+.bm-item {
+  display: inline-block;
+  color: #f2f2f2;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.bm-item:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+/******** search elemintes style *******/
+.search-types {
+  display: block;
+  color: #f2f2f2;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*////////////////////*/
+.App {
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
